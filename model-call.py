@@ -3,7 +3,7 @@ import requests
 
 LOGGER = st.logger
 
-def generate_text(prompt, max_length=50, num_return_sequences=3, temperature=0.7):
+def generate_text(prompt, max_length=500, num_return_sequences=3, temperature=0.7):
     url = "https://api-inference.huggingface.co/models/google/gemma-7b"
     headers = {"Authorization": f"Bearer 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"}  # Replace YOUR_API_TOKEN with your actual API token
     payload = {
