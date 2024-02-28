@@ -30,9 +30,9 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# Hugging Face Free LLM and Website 🤖")
+    st.write("# Hugging Face Free LLM 🤖")
 
-    st.sidebar.info("Enter your prompt on the left and click 'Generate'.")
+    st.sidebar.info("Enter your prompt on the right and click 'Generate'.")
 
     prompt = st.text_input("Enter your prompt:", "Tell me about Duke University")
 
