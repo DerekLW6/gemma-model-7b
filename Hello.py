@@ -34,7 +34,24 @@ def run():
 
     st.sidebar.success("Select a demo above.")
 
-    # st.markdown(
+    st.write("# Hugging Face Free LLM and Website 🤖")
+
+    st.sidebar.info("Enter your prompt on the left and click 'Generate'.")
+
+    prompt = st.text_input("Enter your prompt:", "Tell me about Duke University")
+
+    if st.button("Generate"):
+        generated_texts = generate_text(prompt)
+        if generated_texts is not None:
+            for i, text in enumerate(generated_texts):
+                st.write(f"Generated text {i+1}: {text}")
+
+if __name__ == "__main__":
+    run()
+
+
+
+# st.markdown(
     #     """
     #     Streamlit is an open-source app framework built specifically for
     #     Machine Learning and Data Science projects.
@@ -51,18 +68,3 @@ def run():
     #     - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
     # """
     # )
-
-    st.write("# Hugging Face Free LLM and Website 🤖")
-
-    st.sidebar.info("Enter your prompt on the left and click 'Generate'.")
-
-    prompt = st.text_input("Enter your prompt:", "Tell me about Duke University")
-
-    if st.button("Generate"):
-        generated_texts = generate_text(prompt)
-        if generated_texts is not None:
-            for i, text in enumerate(generated_texts):
-                st.write(f"Generated text {i+1}: {text}")
-
-if __name__ == "__main__":
-    run()
