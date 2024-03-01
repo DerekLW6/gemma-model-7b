@@ -1,7 +1,7 @@
-# Welcome to streamlit
+# Streamlit App w/Hugging Face Model
 
-This is the app you get when you run `streamlit Hugging Face Chat`, extracted as its own app.
+This is the app is running a free chat LLM hosted on Streamlit (model sourced through Hugging Face)
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
+Website Location - https://gemma-model-7b-2fddyrrrci8.streamlit.app/ 
 
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+## Steps 
