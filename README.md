@@ -25,3 +25,9 @@ Website Location - https://gemma-model-7b-2fddyrrrci8.streamlit.app/
 ![image](https://github.com/DerekLW6/gemma-model-7b/assets/53124417/5a81390e-cec6-48c3-874b-fa2d743dd560)
 
 
+**- If you've selected GitHub this will open a codespace where you can start customizing your app**
+
+![image](https://github.com/DerekLW6/gemma-model-7b/assets/53124417/48356246-b770-4bb5-b066-911b20bdd47b)
+
+## **- AWS**
+
