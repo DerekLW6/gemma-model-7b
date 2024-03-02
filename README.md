@@ -37,7 +37,7 @@ https://www.youtube.com/watch?v=jo_fTD2H4xA
 ## **- Once you have your API and build a chat interface you can have it query models on Huggingface.co that have an Inference API**
 Like This - https://huggingface.co/google/gemma-7b
 
-![image](https://github.com/DerekLW6/gemma-model-7b/assets/53124417/63b064b8-513d-44a5-b47a-994f287c0e99)
+![image](https://github.com/DerekLW6/gemma-model-7b/assets/53124417/2c549311-fa46-407f-bfe7-9cd1d6fcbc58)
 
 
 ## **- There is also the option of deploying Streamlit on AWS (bonus points)**
