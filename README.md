@@ -29,5 +29,11 @@ Website Location - https://gemma-model-7b-2fddyrrrci8.streamlit.app/
 
 ![image](https://github.com/DerekLW6/gemma-model-7b/assets/53124417/48356246-b770-4bb5-b066-911b20bdd47b)
 
-## **- AWS**
+## **- There is also the option of deploying on AWS (bonus)**
+
+https://www.youtube.com/watch?v=DflWqmppOAg 
+
+## **- You will also need to sign up for Hugging Face and get an API Key, here is a good video for both.**
+
+https://www.youtube.com/watch?v=jo_fTD2H4xA
 
