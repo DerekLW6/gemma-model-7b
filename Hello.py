@@ -5,7 +5,8 @@ from streamlit.logger import get_logger
 LOGGER = get_logger(__name__)
 
 def generate_text(prompt, max_length=6000, num_return_sequences=8, temperature=0.7):
-    url = "https://api-inference.huggingface.co/models/google/gemma-7b"
+    # url = "https://api-inference.huggingface.co/models/google/gemma-7b"
+    url = "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2"
     headers = {"Authorization": f"Bearer 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"} 
     payload = {
         "inputs": prompt,
